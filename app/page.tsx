@@ -1,69 +1,251 @@
-import Image from "next/image";
+import Hero from "./components/Hero";
+import PopularCategories from "./components/PopularCategories";
+import ProductSection, { Product } from "./components/ProductSection";
+import FooterFeatures from "./components/FooterFeatures";
+
+const newArrivals: Product[] = [
+  {
+    name: "Water Decoloring Agent (DCA)",
+    image: "/product/1.jpg",
+    price: null,
+    originalPrice: null,
+    discount: null,
+    link: "/products/dca",
+  },
+  {
+    name: "সালফিউরিক অ্যাসিড - (Sulfuric Acid)",
+    image: "/product/2.jpg",
+    price: null,
+    originalPrice: null,
+    discount: null,
+    link: "/products/sulfuric-acid",
+  },
+  {
+    name: "Original Unitor 500 Bar High Pressure Washer",
+    image: "/product/3.jpg",
+    price: "৳ 250,000.00",
+    originalPrice: null,
+    discount: null,
+    link: "/products/unitor-500",
+  },
+  {
+    name: "হাই প্রেসার ওয়াটার জেট ক্লিনিং মেশিন",
+    image: "/product/4.jpg",
+    price: "৳ 250,000.00",
+    originalPrice: "৳ 350,000.00",
+    discount: "-29%",
+    link: "/products/water-jet",
+  },
+  {
+    name: "Reconditioned Electric Motors",
+    image: "/product/5.jpg",
+    price: "৳ 0.00",
+    originalPrice: null,
+    discount: null,
+    link: "/products/electric-motors",
+  },
+  {
+    name: "Industrial Shredder Machine",
+    image: "/product/6.jpg",
+    price: "৳ 0.00",
+    originalPrice: null,
+    discount: null,
+    link: "/products/shredder",
+  },
+  {
+    name: "Kemei 3 in 1 Curler",
+    image: "/product/7.jpg",
+    price: "৳ 1,250.00",
+    originalPrice: null,
+    discount: null,
+    link: "/products/kemei-curler",
+  },
+  {
+    name: "Kemei Hair Dryer",
+    image: "/product/8.jpg",
+    price: "৳ 1,500.00",
+    originalPrice: null,
+    discount: null,
+    link: "/products/kemei-dryer",
+  },
+  {
+    name: "Vaneless Hanging Neck Fan",
+    image: "/product/9.jpg",
+    price: "৳ 950.00",
+    originalPrice: null,
+    discount: null,
+    link: "/products/neck-fan",
+  },
+  {
+    name: "Kemei Hair Clipper",
+    image: "/product/10.jpg",
+    price: "৳ 1,100.00",
+    originalPrice: null,
+    discount: null,
+    link: "/products/kemei-clipper",
+  },
+];
+
+const utilityMachinery: Product[] = [
+  {
+    name: "Heliex Power- TWIN SCREW",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 20,000,000.00",
+    link: "/products/heliex-power",
+  },
+  {
+    name: "Electric 500 kg/hr Pure Steam",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 75,000.00",
+    link: "/products/steam-500",
+  },
+  {
+    name: "Electric 100 kg/hr Pure Steam",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 150,000.00",
+    link: "/products/steam-100",
+  },
+  {
+    name: "SWAN DIRECT-DRIVE",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 900,000.00",
+    link: "/products/swan-direct",
+  },
+  {
+    name: "DMC Brand Screw Air",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 275,000.00",
+    link: "/products/dmc-screw-air",
+  },
+  {
+    name: "DMC 37kw 50hp Variable",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 1,050,000.00",
+    link: "/products/dmc-37kw",
+  },
+  {
+    name: "DMC 22KW , 3.6 m3/min,",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 798,000.00",
+    link: "/products/dmc-22kw",
+  },
+  {
+    name: "Steam Generator for Edible",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 1,000.00",
+    link: "/products/steam-edible",
+  },
+  {
+    name: "Boiler Heater for superheated",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 18,000.00",
+    link: "/products/boiler-heater",
+  },
+  {
+    name: "European/Italian Biomass",
+    image: "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=400&auto=format&fit=crop&q=80",
+    price: null,
+    link: "/products/biomass",
+  },
+];
+
+const industrialPump: Product[] = [
+  {
+    name: "Original Unitor 500 Bar High Pressure Washer",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 250,000.00",
+    link: "/products/unitor-500-pump",
+  },
+  {
+    name: "হাই প্রেসার ওয়াটার জেট ক্লিনিং মেশিন",
+    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 250,000.00",
+    originalPrice: "৳ 350,000.00",
+    discount: "-29%",
+    link: "/products/water-jet-pump",
+  },
+  {
+    name: "Vertical multistage pressure pump",
+    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
+    price: null,
+    link: "/products/vertical-multistage",
+  },
+  {
+    name: "3HP Submersible Pump Price",
+    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 35,000.00",
+    link: "/products/3hp-submersible",
+  },
+  {
+    name: "Suntec Fuel/oil Pumps price in",
+    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 110,000.00",
+    link: "/products/suntec-fuel",
+  },
+  {
+    name: "7.5KW Submersible water pump",
+    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 2,200,000.00",
+    link: "/products/7.5kw-submersible",
+  },
+  {
+    name: "6000 GPD RO plant price in",
+    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 280,000.00",
+    link: "/products/6000-gpd-ro",
+  },
+  {
+    name: "2 HP PEDROLLO Pump",
+    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 52,000.00",
+    link: "/products/2hp-pedrollo",
+  },
+  {
+    name: "1.50 HP PEDROLLO JET Pump",
+    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 21,000.00",
+    link: "/products/1.50hp-pedrollo",
+  },
+  {
+    name: "JSWm 2C 1HP PEDROLLO Pump",
+    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
+    price: "৳ 20,000.00",
+    link: "/products/jswm-2c-pedrollo",
+  },
+];
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
-        </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
-            />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
-      </main>
-    </div>
+    <main className="flex-1 bg-white">
+      {/* Hero Component */}
+      <Hero />
+
+      {/* Popular Categories & Why Choose US Sections */}
+      <PopularCategories />
+
+      {/* New Arrivals Section */}
+      <ProductSection
+        title="New Arrivals Products"
+        seeAllLink="/shop?filter=new-arrivals"
+        products={newArrivals}
+      />
+
+      {/* Utility Machinery Section */}
+      <ProductSection
+        title="Utility Machinery"
+        seeAllLink="/shop?filter=utility-machinery"
+        products={utilityMachinery}
+      />
+
+      {/* Industrial Pump Section */}
+      <ProductSection
+        title="Industrial Pump"
+        seeAllLink="/shop?filter=industrial-pump"
+        products={industrialPump}
+      />
+
+      {/* Bottom Footer Features Banner */}
+      <FooterFeatures />
+    </main>
   );
 }
