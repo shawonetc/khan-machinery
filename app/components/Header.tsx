@@ -15,7 +15,7 @@ export default function Header() {
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center text-sm gap-2 sm:gap-0">
           {/* Left spacer/promo text */}
           <div className="text-xs sm:text-sm font-medium tracking-wide">
-            Welcome to Khan Machinery Bangladesh
+            Welcome to Kahn Machinary Bangladesh
           </div>
           {/* Right side contact & social */}
           <div className="flex items-center gap-6">
@@ -58,7 +58,7 @@ export default function Header() {
             <div className="relative w-14 h-14 bg-gray-50 rounded-full border border-gray-100 overflow-hidden shadow-sm">
               <Image
                 src="/logo.jpg"
-                alt="Khan Machinery Logo"
+                alt="Kahn Machinary Logo"
                 fill
                 className="object-cover"
                 unoptimized
@@ -66,7 +66,7 @@ export default function Header() {
             </div>
             <div className="flex flex-col">
               <span className="font-extrabold text-lg sm:text-xl tracking-tight text-gray-900 leading-none">
-                KHAN MACHINERY
+                KAHN MACHINARY
               </span>
               <span className="text-xs font-semibold tracking-[0.2em] text-[#FF6B00] uppercase mt-0.5">
                 Bangladesh
@@ -134,7 +134,7 @@ export default function Header() {
             <div className="relative w-9 h-9 bg-gray-50 rounded-full border border-gray-100 overflow-hidden shadow-sm flex-shrink-0">
               <Image
                 src="/logo.jpg"
-                alt="Khan Machinery Logo"
+                alt="Kahn Machinary Logo"
                 fill
                 className="object-cover"
                 unoptimized
@@ -142,7 +142,7 @@ export default function Header() {
             </div>
             <div className="flex flex-col items-center">
               <span className="font-extrabold text-sm tracking-tight text-gray-900 leading-none">
-                KHAN MACHINERY
+                KAHN MACHINARY
               </span>
               <span className="text-[8px] font-semibold tracking-[0.2em] text-[#FF6B00] uppercase mt-0.5">
                 Bangladesh

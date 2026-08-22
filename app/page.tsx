@@ -86,131 +86,123 @@ const newArrivals: Product[] = [
   },
 ];
 
-const utilityMachinery: Product[] = [
+const featuredMachinery: Product[] = [
   {
-    name: "Heliex Power- TWIN SCREW",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 20,000,000.00",
-    link: "/products/heliex-power",
-  },
-  {
-    name: "Electric 500 kg/hr Pure Steam",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 75,000.00",
-    link: "/products/steam-500",
-  },
-  {
-    name: "Electric 100 kg/hr Pure Steam",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 150,000.00",
-    link: "/products/steam-100",
-  },
-  {
-    name: "SWAN DIRECT-DRIVE",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 900,000.00",
-    link: "/products/swan-direct",
-  },
-  {
-    name: "DMC Brand Screw Air",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 275,000.00",
-    link: "/products/dmc-screw-air",
-  },
-  {
-    name: "DMC 37kw 50hp Variable",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 1,050,000.00",
-    link: "/products/dmc-37kw",
-  },
-  {
-    name: "DMC 22KW , 3.6 m3/min,",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 798,000.00",
-    link: "/products/dmc-22kw",
-  },
-  {
-    name: "Steam Generator for Edible",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 1,000.00",
-    link: "/products/steam-edible",
-  },
-  {
-    name: "Boiler Heater for superheated",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 18,000.00",
-    link: "/products/boiler-heater",
-  },
-  {
-    name: "European/Italian Biomass",
-    image: "https://images.unsplash.com/photo-1611284446314-60a58ac0deb9?w=400&auto=format&fit=crop&q=80",
+    name: "ATMA ATMALINE RR5060/S Roll-to-Roll Screen Printing Line",
+    image: "/products/ATMALINE_RR5060_S.avif",
     price: null,
-    link: "/products/biomass",
+    link: "/products/atmaline-rr5060s",
+  },
+  {
+    name: "CS-3020CNC High Speed CNC Engraving Machine",
+    image: "/products/CS-3020CNC.png",
+    price: null,
+    link: "/products/cs-3020cnc",
+  },
+  {
+    name: "Roll-To-Roll 3-Colour with UV Screen Printing Machine",
+    image: "/products/Roll-To-Roll-3-Colour-with-UV-Screen-Printing-Machine.jpg",
+    price: null,
+    link: "/products/roll-to-roll-3-colour",
+  },
+  {
+    name: "Roll-to-Roll Screen Printing Machine",
+    image: "/products/Roll-to-Roll-Screen-Printing-追标-2-无标-900X675.jpg",
+    price: null,
+    link: "/products/roll-to-roll-screen-printing",
+  },
+  {
+    name: "Industrial Machinery Unit",
+    image: "/products/WhatsApp Image 2026-08-18 at 12.27.12 PM.jpeg",
+    price: null,
+    link: "/products/industrial-machinery-unit",
+  },
+  {
+    name: "Industrial Screen Printing Solution",
+    image: "/products/images.jpg",
+    price: null,
+    link: "/products/industrial-screen-printing",
+  },
+  {
+    name: "Heavy Duty Industrial Machine 1",
+    image: "/products/1.jpg",
+    price: null,
+    link: "/products/heavy-duty-1",
+  },
+  {
+    name: "Heavy Duty Industrial Machine 2",
+    image: "/products/2.jpg",
+    price: null,
+    link: "/products/heavy-duty-2",
   },
 ];
 
-const industrialPump: Product[] = [
+const dtfMachinery: Product[] = [
   {
-    name: "Original Unitor 500 Bar High Pressure Washer",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 250,000.00",
-    link: "/products/unitor-500-pump",
-  },
-  {
-    name: "হাই প্রেসার ওয়াটার জেট ক্লিনিং মেশিন",
-    image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 250,000.00",
-    originalPrice: "৳ 350,000.00",
-    discount: "-29%",
-    link: "/products/water-jet-pump",
-  },
-  {
-    name: "Vertical multistage pressure pump",
-    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
+    name: "60cm DTF Printer Machine",
+    image: "/dtf/60cm-dtf-printer-6.jpg",
     price: null,
-    link: "/products/vertical-multistage",
+    link: "/products/60cm-dtf-printer",
   },
   {
-    name: "3HP Submersible Pump Price",
-    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 35,000.00",
-    link: "/products/3hp-submersible",
+    name: "70cm Professional DTF Printer",
+    image: "/dtf/70-DTF-PRINTER-3.jpg",
+    price: null,
+    link: "/products/70cm-dtf-printer",
   },
   {
-    name: "Suntec Fuel/oil Pumps price in",
-    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 110,000.00",
-    link: "/products/suntec-fuel",
+    name: "DTF Powder Shaker Dryer Machine",
+    image: "/dtf/87e3d43db399b09db09090d3ca597ab4.jpg_960x960q80.jpg_.webp",
+    price: null,
+    link: "/products/dtf-powder-shaker",
   },
   {
-    name: "7.5KW Submersible water pump",
-    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 2,200,000.00",
-    link: "/products/7.5kw-submersible",
+    name: "Industrial DTF Printing Machine",
+    image: "/dtf/DTF-Printing-Machine.jpg",
+    price: null,
+    link: "/products/dtf-printing-machine",
   },
   {
-    name: "6000 GPD RO plant price in",
-    image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 280,000.00",
-    link: "/products/6000-gpd-ro",
+    name: "High Speed DTF Printing Station",
+    image: "/dtf/DTF-Printing.webp",
+    price: null,
+    link: "/products/dtf-printing-station",
   },
   {
-    name: "2 HP PEDROLLO Pump",
-    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 52,000.00",
-    link: "/products/2hp-pedrollo",
+    name: "Dual Head DTF Printing System",
+    image: "/dtf/DTF.png",
+    price: null,
+    link: "/products/dtf-dual-head",
   },
   {
-    name: "1.50 HP PEDROLLO JET Pump",
-    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 21,000.00",
-    link: "/products/1.50hp-pedrollo",
+    name: "Automatic DTF Inkjet Printer",
+    image: "/dtf/H09089c94534c417194f1530b1efa4a533.avif",
+    price: null,
+    link: "/products/dtf-inkjet-printer",
   },
   {
-    name: "JSWm 2C 1HP PEDROLLO Pump",
-    image: "https://images.unsplash.com/photo-1585713181935-d5f622cc2415?w=400&auto=format&fit=crop&q=80",
-    price: "৳ 20,000.00",
-    link: "/products/jswm-2c-pedrollo",
+    name: "All-in-One DTF Printing Bundle with Smoke Extractor",
+    image: "/dtf/P200P400_DTF_Printing_Bundle_P50H_Smoke_Extract_All_in_one-2.webp",
+    price: null,
+    link: "/products/dtf-all-in-one-bundle",
+  },
+  {
+    name: "Digital DTF Transfer Printer",
+    image: "/dtf/b9033daad4f4cc198fa570fb6be48265.jpg",
+    price: null,
+    link: "/products/dtf-transfer-printer",
+  },
+  {
+    name: "DTF Station R14 Desktop Printer",
+    image: "/dtf/dtfstationr14.webp",
+    price: null,
+    link: "/products/dtf-station-r14",
+  },
+  {
+    name: "Compact DTF Flatbed Printer",
+    image: "/dtf/images.jpg",
+    price: null,
+    link: "/products/dtf-flatbed-printer",
   },
 ];
 
@@ -223,25 +215,25 @@ export default function Home() {
       {/* Popular Categories & Why Choose US Sections */}
       <PopularCategories />
 
+      {/* Featured Screen Printing & Industrial Machinery */}
+      <ProductSection
+        title="Featured Screen Printing & Industrial Machinery"
+        seeAllLink="/shop?filter=screen-printing"
+        products={featuredMachinery}
+      />
+
+      {/* DTF Printing Machinery */}
+      <ProductSection
+        title="DTF Printing Machinery"
+        seeAllLink="/shop?filter=dtf-printing"
+        products={dtfMachinery}
+      />
+
       {/* New Arrivals Section */}
       <ProductSection
         title="New Arrivals Products"
         seeAllLink="/shop?filter=new-arrivals"
         products={newArrivals}
-      />
-
-      {/* Utility Machinery Section */}
-      <ProductSection
-        title="Utility Machinery"
-        seeAllLink="/shop?filter=utility-machinery"
-        products={utilityMachinery}
-      />
-
-      {/* Industrial Pump Section */}
-      <ProductSection
-        title="Industrial Pump"
-        seeAllLink="/shop?filter=industrial-pump"
-        products={industrialPump}
       />
 
       {/* Bottom Footer Features Banner */}

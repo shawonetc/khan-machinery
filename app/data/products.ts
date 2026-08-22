@@ -643,5 +643,378 @@ export const productsData: Product[] = [
       "Max Flow": "70 L/min",
       "Inlet/Outlet Size": "1 Inch x 1 Inch"
     }
+  },
+  {
+    slug: "atmaline-rr5060s",
+    name: "ATMA ATMALINE RR5060/S Roll-to-Roll Screen Printing Line",
+    image: "/products/ATMALINE_RR5060_S.avif",
+    link: "/products/atmaline-rr5060s",
+    category: "Screen Printing Machinery",
+    description: "Fully automatic roll-to-roll screen printing line, high precision register, ideal for flexible materials, heat transfers, and high production print operations.",
+    features: [
+      "High precision roll-to-roll alignment",
+      "Integrated drying and UV curing modules",
+      "Easy operation touchscreen system",
+      "Stable speed and tension control"
+    ],
+    specifications: {
+      "Model": "ATMALINE RR5060/S",
+      "Max Printing Area": "500 x 600 mm",
+      "Register Accuracy": "± 0.05 mm",
+      "Speed": "Up to 3000 impressions/hr"
+    }
+  },
+  {
+    slug: "cs-3020cnc",
+    name: "CS-3020CNC High Speed CNC Engraving Machine",
+    image: "/products/CS-3020CNC.png",
+    link: "/products/cs-3020cnc",
+    category: "CNC Engraving Machinery",
+    description: "Compact and powerful CNC engraving machine suitable for metal, plastics, wood, and PCB prototyping with extreme accuracy.",
+    features: [
+      "Rigid construction prevents vibration",
+      "High-speed water-cooled spindle",
+      "Precision ball screw guides",
+      "Compatible with major CAD/CAM software"
+    ],
+    specifications: {
+      "Model": "CS-3020CNC",
+      "Working Table": "300 x 200 mm",
+      "Spindle Power": "800W",
+      "Max Feed Speed": "4000 mm/min"
+    }
+  },
+  {
+    slug: "roll-to-roll-3-colour",
+    name: "Roll-To-Roll 3-Colour with UV Screen Printing Machine",
+    image: "/products/Roll-To-Roll-3-Colour-with-UV-Screen-Printing-Machine.jpg",
+    link: "/products/roll-to-roll-3-colour",
+    category: "Screen Printing Machinery",
+    description: "Multicolor roll-to-roll screen printing line with inline UV curing stations, designed for labels, textile transfers, and film electronics.",
+    features: [
+      "Multi-color inline screen printing",
+      "Automatic tension control and tracking",
+      "Inline UV lamp dryers after each print head",
+      "Energy efficient operation"
+    ],
+    specifications: {
+      "Number of Colors": "3 Colors",
+      "Curing System": "UV Curing Lamp",
+      "Max Material Width": "350 mm",
+      "Drive": "Servo Motor Driven"
+    }
+  },
+  {
+    slug: "roll-to-roll-screen-printing",
+    name: "Roll-to-Roll Screen Printing Machine",
+    image: "/products/Roll-to-Roll-Screen-Printing-追标-2-无标-900X675.jpg",
+    link: "/products/roll-to-roll-screen-printing",
+    category: "Screen Printing Machinery",
+    description: "High efficiency automated roll-to-roll screen printing machine featuring dynamic sensor tracking for precise overprinting and pattern alignment.",
+    features: [
+      "Photocell tracking for precise registration",
+      "Static eliminator bar",
+      "Suction table for flat printing",
+      "Automatic loop feeding control"
+    ],
+    specifications: {
+      "Max Printing Speed": "2500 prints/hour",
+      "Web Width": "450 mm",
+      "Power Requirement": "220V 50Hz"
+    }
+  },
+  {
+    slug: "industrial-machinery-unit",
+    name: "Industrial Machinery Unit",
+    image: "/products/WhatsApp Image 2026-08-18 at 12.27.12 PM.jpeg",
+    link: "/products/industrial-machinery-unit",
+    category: "Industrial Equipment",
+    description: "Premium heavy-duty industrial machinery unit engineered for robust operations in modern process plants and manufacturing facilities.",
+    features: [
+      "Robust heavy structural steel build",
+      "High reliability components",
+      "Low noise and thermal emission levels",
+      "Conforms to international safety standards"
+    ],
+    specifications: {
+      "Application": "Industrial production line",
+      "Duty Cycle": "Continuous 24/7",
+      "Power Source": "380V 3-Phase"
+    }
+  },
+  {
+    slug: "industrial-screen-printing",
+    name: "Industrial Screen Printing Solution",
+    image: "/products/images.jpg",
+    link: "/products/industrial-screen-printing",
+    category: "Screen Printing Machinery",
+    description: "Compact and powerful tabletop industrial screen printing solution for electronic components, panels, dials, and small flat products.",
+    features: [
+      "Micrometer adjustment for X/Y alignment",
+      "Pneumatic squeegee print cycle",
+      "Safety guarding and emergency stop switch",
+      "Adjustable peel-off speed"
+    ],
+    specifications: {
+      "Print Area": "200 x 300 mm",
+      "Air Pressure": "0.5 - 0.7 MPa",
+      "Squeegee Angle": "Adjustable 0 - 30 degrees"
+    }
+  },
+  {
+    slug: "heavy-duty-1",
+    name: "Heavy Duty Industrial Machine 1",
+    image: "/products/1.jpg",
+    link: "/products/heavy-duty-1",
+    category: "Industrial Equipment",
+    description: "High capacity heavy duty industrial machinery designed for severe operations and high mechanical reliability.",
+    features: [
+      "Rigid body construction",
+      "High torque transmission",
+      "Easy maintenance layout",
+      "Long operational lifespan"
+    ],
+    specifications: {
+      "Type": "Heavy Duty Industrial",
+      "Control System": "Manual/Auto",
+      "Certification": "CE Standard"
+    }
+  },
+  {
+    slug: "heavy-duty-2",
+    name: "Heavy Duty Industrial Machine 2",
+    image: "/products/2.jpg",
+    link: "/products/heavy-duty-2",
+    category: "Industrial Equipment",
+    description: "Advanced heavy duty industrial machinery providing optimized performance and versatile settings for processing plants.",
+    features: [
+      "Variable frequency drive control",
+      "Reinforced guide rails",
+      "Corrosion-resistant surface finish",
+      "Integrated diagnostic panel"
+    ],
+    specifications: {
+      "Type": "Advanced Heavy Industrial",
+      "Thermal Insulation": "Class H",
+      "Lubrication": "Automatic Oil Bath"
+    }
+  },
+  {
+    slug: "60cm-dtf-printer",
+    name: "60cm DTF Printer Machine",
+    image: "/dtf/60cm-dtf-printer-6.jpg",
+    link: "/products/60cm-dtf-printer",
+    category: "DTF Printing Machinery",
+    description: "Professional 60cm DTF printer designed for high-resolution fabric transfers, featuring dual printheads and automatic powder recirculating systems.",
+    features: [
+      "Dual high-speed printheads",
+      "White ink circulation system",
+      "Precision vacuum feed table",
+      "Efficient heating and curing tunnel"
+    ],
+    specifications: {
+      "Print Width": "60 cm (24 inch)",
+      "Printhead Type": "Epson i3200",
+      "Resolution": "Up to 2400 DPI",
+      "Ink Type": "DTF Pigment Ink"
+    }
+  },
+  {
+    slug: "70cm-dtf-printer",
+    name: "70cm Professional DTF Printer",
+    image: "/dtf/70-DTF-PRINTER-3.jpg",
+    link: "/products/70cm-dtf-printer",
+    category: "DTF Printing Machinery",
+    description: "Heavy-duty 70cm DTF printing platform delivering exceptional color reproduction, faster throughput, and high wash-fastness on all textiles.",
+    features: [
+      "Wide printing format",
+      "Intelligent tension control system",
+      "Auto-powder shaking and baking integration",
+      "Robust steel structural frame"
+    ],
+    specifications: {
+      "Print Width": "70 cm",
+      "Speed": "Up to 15 sqm/hr",
+      "Interface": "USB 3.0 / Network",
+      "Heating Temperature": "110°C - 150°C"
+    }
+  },
+  {
+    slug: "dtf-powder-shaker",
+    name: "DTF Powder Shaker Dryer Machine",
+    image: "/dtf/87e3d43db399b09db09090d3ca597ab4.jpg_960x960q80.jpg_.webp",
+    link: "/products/dtf-powder-shaker",
+    category: "DTF Printing Machinery",
+    description: "Automated powder shaker and infrared dryer machine designed to apply TPU powder evenly and cure film prints in a continuous line.",
+    features: [
+      "Automatic powder dusting and shaking",
+      "High efficiency infrared curing heaters",
+      "Auto take-up roll system",
+      "Adjustable speed and shaking strength"
+    ],
+    specifications: {
+      "Heating Type": "Infrared Tube Heat",
+      "Applicable Width": "Up to 60 cm",
+      "Power consumption": "4.5 kW",
+      "Voltage": "220V 50-60Hz"
+    }
+  },
+  {
+    slug: "dtf-printing-machine",
+    name: "Industrial DTF Printing Machine",
+    image: "/dtf/DTF-Printing-Machine.jpg",
+    link: "/products/dtf-printing-machine",
+    category: "DTF Printing Machinery",
+    description: "High performance industrial DTF printing machine configured for large volume garment personalization shops and manufacturing.",
+    features: [
+      "High duty cycle print engine",
+      "Advanced media feeding guides",
+      "Active negative pressure ink control",
+      "Integrated touch console"
+    ],
+    specifications: {
+      "Ink Configuration": "CMYK + White",
+      "RIP Software": "MainTop / Photoprint",
+      "Power Source": "AC 220V ±10%",
+      "Curing Area": "Adjustable heat zone"
+    }
+  },
+  {
+    slug: "dtf-printing-station",
+    name: "High Speed DTF Printing Station",
+    image: "/dtf/DTF-Printing.webp",
+    link: "/products/dtf-printing-station",
+    category: "DTF Printing Machinery",
+    description: "Advanced all-in-one DTF printing station designed for maximum speed and excellent wash durability on sports jerseys, tees, and canvas bags.",
+    features: [
+      "High-precision servo motor system",
+      "Consistent white ink density control",
+      "Optimized media dryer module",
+      "Ergonomic operator layout"
+    ],
+    specifications: {
+      "Print Speed": "20 meters/hour",
+      "Register Precision": "±0.02mm",
+      "Air Supply": "0.6 MPa",
+      "Total Weight": "280 kg"
+    }
+  },
+  {
+    slug: "dtf-dual-head",
+    name: "Dual Head DTF Printing System",
+    image: "/dtf/DTF.png",
+    link: "/products/dtf-dual-head",
+    category: "DTF Printing Machinery",
+    description: "Industrial dual head DTF printing system offering high precision printing, bright colors, and soft touch feel on finished apparel.",
+    features: [
+      "Dual printhead configuration for rapid printing",
+      "Optimized white ink stir system",
+      "Integrated front and back heating plates",
+      "Auto-clean nozzle cap station"
+    ],
+    specifications: {
+      "Printheads": "2 x Epson XP600 / i3200",
+      "Working Width": "60cm",
+      "Software": "CADlink Digital Factory",
+      "Power Supply": "110V/220V"
+    }
+  },
+  {
+    slug: "dtf-inkjet-printer",
+    name: "Automatic DTF Inkjet Printer",
+    image: "/dtf/H09089c94534c417194f1530b1efa4a533.avif",
+    link: "/products/dtf-inkjet-printer",
+    category: "DTF Printing Machinery",
+    description: "Direct to film inkjet printer with automatic print management, stable media feeding, and high opacity white layer printing.",
+    features: [
+      "Automated print queue controller",
+      "Smart ink starvation alarm",
+      "Low maintenance operation",
+      "Suits both dark and light fabrics"
+    ],
+    specifications: {
+      "Media Thickness": "Up to 2mm",
+      "Printing Resolution": "1440 x 1440 DPI",
+      "Dryer temp": "Constant 120°C"
+    }
+  },
+  {
+    slug: "dtf-all-in-one-bundle",
+    name: "All-in-One DTF Printing Bundle with Smoke Extractor",
+    image: "/dtf/P200P400_DTF_Printing_Bundle_P50H_Smoke_Extract_All_in_one-2.webp",
+    link: "/products/dtf-all-in-one-bundle",
+    category: "DTF Printing Machinery",
+    description: "Complete DTF bundle package including DTF printer, powder shaker-dryer unit, and a high-efficiency smoke extractor system for clean working environments.",
+    features: [
+      "Turnkey DTF production bundle",
+      "High filtration efficiency smoke extractor",
+      "Space-saving compact arrangement",
+      "Ideal for workshop and office operations"
+    ],
+    specifications: {
+      "Filter Type": "Activated Carbon & HEPA Filter",
+      "Airflow Rate": "200 m³/h",
+      "Printer Width": "30cm - 60cm supported",
+      "Noise Level": "Below 55 dB"
+    }
+  },
+  {
+    slug: "dtf-transfer-printer",
+    name: "Digital DTF Transfer Printer",
+    image: "/dtf/b9033daad4f4cc198fa570fb6be48265.jpg",
+    link: "/products/dtf-transfer-printer",
+    category: "DTF Printing Machinery",
+    description: "Digital printing machine specialized in Direct to Film transfers for custom apparel decoration, screen printing shops, and small custom businesses.",
+    features: [
+      "Accurate color rendering",
+      "Robust frame construction",
+      "White ink cycle system prevents clogging",
+      "Eco-friendly DTF pigments"
+    ],
+    specifications: {
+      "Model": "Transfer Pro-300",
+      "Ink System": "CISS Continuous Supply",
+      "Speed": "8 - 12 sqm/hr",
+      "Operating System": "Windows 10 / 11"
+    }
+  },
+  {
+    slug: "dtf-station-r14",
+    name: "DTF Station R14 Desktop Printer",
+    image: "/dtf/dtfstationr14.webp",
+    link: "/products/dtf-station-r14",
+    category: "DTF Printing Machinery",
+    description: "Compact desktop DTF printer from DTF Station, perfect for small businesses and hobbyists looking to enter the custom apparel decoration industry.",
+    features: [
+      "Compact desktop space requirement",
+      "Simple setup and intuitive RIP interface",
+      "Reliable print engine results",
+      "High cost efficiency"
+    ],
+    specifications: {
+      "Model": "DTF Station R14",
+      "Print Width": "33 cm (13 inch)",
+      "Print Resolution": "5760 x 1440 DPI",
+      "Dimensions": "650 x 300 x 250 mm"
+    }
+  },
+  {
+    slug: "dtf-flatbed-printer",
+    name: "Compact DTF Flatbed Printer",
+    image: "/dtf/images.jpg",
+    link: "/products/dtf-flatbed-printer",
+    category: "DTF Printing Machinery",
+    description: "A compact desktop flatbed DTF printer ideal for quick print trials, logo printing, and personalized small garment production.",
+    features: [
+      "Flatbed layout for easy film placement",
+      "Micro-precision printing alignment",
+      "Quiet carriage movement",
+      "Rapid turnaround time"
+    ],
+    specifications: {
+      "Print Area": "A3 Size (30 x 42 cm)",
+      "Power consumption": "150W",
+      "Net Weight": "45 kg"
+    }
   }
 ];

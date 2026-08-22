@@ -32,10 +32,7 @@ export default function Footer() {
               </div>
             </Link>
             <p className="text-base text-gray-500 leading-relaxed">
-              Khan Machinery BD is an industrial machinery supplier in Bangladesh, delivering quality machinery, technical support, and reliable solutions for textile and process industries since 2018.{" "}
-              <Link href="/about" className="text-[#FF6B00] font-semibold hover:underline">
-                See More
-              </Link>
+              All Kinds Of Garments Accessories & Electrical Goods Importer. Whole Saler & Supplier.
             </p>
           </div>
 
@@ -87,7 +84,7 @@ export default function Footer() {
               <div>
                 <p className="font-semibold text-gray-800 text-sm">Office Address:</p>
                 <p className="text-gray-500 text-sm mt-0.5 leading-relaxed">
-                  Bagdad Tanzia Tower, Classic House, 2nd Floor, Tangail Road, Chandona Chowrasta, Gazipur-1702, Bangladesh.
+                  House no- 46, Khilgaon Taltola Market Road, Khilgaon, Dhaka.
                 </p>
               </div>
             </div>
@@ -98,7 +95,7 @@ export default function Footer() {
                 <path strokeLinecap="round" strokeLinejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.94.725l.548 2.2a1 1 0 01-.321.988l-1.305.98a10.582 10.582 0 004.872 4.872l.98-1.305a1 1 0 01.988-.321l2.2.548a1 1 0 01.725.94V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
               <a href="tel:+8801701646926" className="hover:text-[#FF6B00] transition-colors text-sm font-semibold">
-                +880 1701-646926
+                +8801701646926 (WhatsApp / WeChat)
               </a>
             </div>
 
@@ -142,8 +139,8 @@ export default function Footer() {
       {/* Copyright Bar */}
       <div className="w-full bg-[#FF6B00] py-3.5 text-center text-sm font-semibold text-white tracking-wide">
         Copyright © 2026 | Khan Machinery BD Designed by{" "}
-        <a href="https://websitemakerbd.com" target="_blank" rel="noopener noreferrer" className="hover:underline text-white font-bold">
-          WebsiteMakerBD.Com
+        <a href="https://demo-shawon.vercel.app/" target="_blank" rel="noopener noreferrer" className="hover:underline text-white font-bold">
+          shawon
         </a>
       </div>
 
